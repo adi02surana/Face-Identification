@@ -1,0 +1,7 @@
+{
+  "dataset": "DigiFace-1M",
+  "total_images": 1053330,
+  "aligned_success": 1045962,
+  "detection_failures": 7368,
+  "failure_rate_pct": 0.7
+}

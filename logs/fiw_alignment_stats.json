@@ -1,0 +1,18 @@
+{
+  "dataset": "FIW",
+  "total_images": 2455,
+  "aligned_success": 2453,
+  "detection_failures": 2,
+  "missing_files": 0,
+  "failure_rate_pct": 0.08,
+  "failed_samples": [
+    {
+      "path": "D:\\public\\FIDs\\F0426\\MID4\\P11041_face0.jpg",
+      "reason": "Face detection failed: used center crop fallback"
+    },
+    {
+      "path": "D:\\public\\FIDs\\F0823\\MID1\\P08710_face1.jpg",
+      "reason": "Face detection failed: used center crop fallback"
+    }
+  ]
+}

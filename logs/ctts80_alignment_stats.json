@@ -1,0 +1,8 @@
+{
+  "dataset": "CTTS-80",
+  "total_images": 1920,
+  "aligned_success": 1920,
+  "detection_failures": 0,
+  "failure_rate_pct": 0.0,
+  "failed_samples": []
+}

@@ -1,0 +1,29 @@
+# Python Bytecode and Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Large Datasets (Images, Aligned crops, Raw archives)
+data/
+*.tar.gz
+*.tar
+*.zip
+*.onnx
+
+# Model Weights and Checkpoints (>100MB binaries)
+checkpoints/*.pth
+models/weights/*.pth
+
+# OS and Temporary Files
+.DS_Store
+Thumbs.db
+*.tmp
+*.log

@@ -1,0 +1,1010 @@
+{
+  "clean": {
+    "axis": "clean",
+    "severity": 0,
+    "twin_eer": 0.5625,
+    "twin_optimal_threshold": 0.6736408472061157,
+    "twin_tar_at_far001": 0.0,
+    "unrelated_eer": 0.35,
+    "group_metrics": {
+      "same": {
+        "mean_sim": 0.5970463501289487,
+        "std_sim": 0.18453203799537649,
+        "mean_regional_ratio": 0.4870794331285536,
+        "mean_gate_value": 0.6238282322883606
+      },
+      "twin": {
+        "mean_sim": 0.6176642403006554,
+        "std_sim": 0.22697690312800717,
+        "mean_regional_ratio": 0.5213184268432431,
+        "mean_gate_value": 0.6238282322883606
+      },
+      "sibling": {
+        "mean_sim": 0.5155554649420082,
+        "std_sim": 0.1697281475335347,
+        "mean_regional_ratio": 0.5650205464263122,
+        "mean_gate_value": 0.6238282322883606
+      },
+      "unrelated": {
+        "mean_sim": 0.48872956950217483,
+        "std_sim": 0.1505480490555851,
+        "mean_regional_ratio": 0.45919419733452804,
+        "mean_gate_value": 0.6238282322883606
+      }
+    },
+    "three_class_metrics": {
+      "accuracy": 0.375,
+      "thresholds": {
+        "tau_twin_same": 0.5659290552139282,
+        "tau_twin_unrelated": 0.5161880850791931
+      },
+      "confusion_matrix": [
+        [
+          10,
+          0,
+          6
+        ],
+        [
+          35,
+          14,
+          39
+        ],
+        [
+          26,
+          9,
+          45
+        ]
+      ]
+    },
+    "attention_shift": {
+      "regional_ratio_same": 0.4870794331285536,
+      "regional_ratio_twin": 0.5213184268432431,
+      "gate_value": 0.6238282322883606
+    }
+  },
+  "blur_sev1": {
+    "axis": "blur",
+    "severity": 1,
+    "twin_eer": 0.59375,
+    "twin_optimal_threshold": 0.677653431892395,
+    "twin_tar_at_far001": 0.0,
+    "unrelated_eer": 0.475,
+    "group_metrics": {
+      "same": {
+        "mean_sim": 0.5605561602860689,
+        "std_sim": 0.1826827699892594,
+        "mean_regional_ratio": 0.4728586357453635,
+        "mean_gate_value": 0.6238282322883606
+      },
+      "twin": {
+        "mean_sim": 0.6091350391507149,
+        "std_sim": 0.2489488042328132,
+        "mean_regional_ratio": 0.5126558122423617,
+        "mean_gate_value": 0.6238282322883606
+      },
+      "sibling": {
+        "mean_sim": 0.5106416958384216,
+        "std_sim": 0.1625789342277368,
+        "mean_regional_ratio": 0.5507770544768334,
+        "mean_gate_value": 0.6238282322883606
+      },
+      "unrelated": {
+        "mean_sim": 0.5011867782101035,
+        "std_sim": 0.14994670128349047,
+        "mean_regional_ratio": 0.4576078825066074,
+        "mean_gate_value": 0.6238282322883606
+      }
+    },
+    "three_class_metrics": {
+      "accuracy": 0.3858695652173913,
+      "thresholds": {
+        "tau_twin_same": 0.5900717973709106,
+        "tau_twin_unrelated": 0.5211614370346069
+      },
+      "confusion_matrix": [
+        [
+          9,
+          0,
+          7
+        ],
+        [
+          27,
+          19,
+          42
+        ],
+        [
+          23,
+          14,
+          43
+        ]
+      ]
+    },
+    "attention_shift": {
+      "regional_ratio_same": 0.4728586357453635,
+      "regional_ratio_twin": 0.5126558122423617,
+      "gate_value": 0.6238282322883606
+    }
+  },
+  "blur_sev2": {
+    "axis": "blur",
+    "severity": 2,
+    "twin_eer": 0.5,
+    "twin_optimal_threshold": 0.5612659454345703,
+    "twin_tar_at_far001": 0.0,
+    "unrelated_eer": 0.5,
+    "group_metrics": {
+      "same": {
+        "mean_sim": 0.5286811599507928,
+        "std_sim": 0.17670827497796274,
+        "mean_regional_ratio": 0.4628782788071739,
+        "mean_gate_value": 0.6238282322883606
+      },
+      "twin": {
+        "mean_sim": 0.5831216331571341,
+        "std_sim": 0.24944045280551108,
+        "mean_regional_ratio": 0.4916708883777847,
+        "mean_gate_value": 0.6238282322883606
+      },
+      "sibling": {
+        "mean_sim": 0.48605504622682927,
+        "std_sim": 0.15910231364010521,
+        "mean_regional_ratio": 0.5375422803494722,
+        "mean_gate_value": 0.6238282322883606
+      },
+      "unrelated": {
+        "mean_sim": 0.5091472938656807,
+        "std_sim": 0.14527567979412914,
+        "mean_regional_ratio": 0.45701599429418405,
+        "mean_gate_value": 0.6238282322883606
+      }
+    },
+    "three_class_metrics": {
+      "accuracy": 0.266304347826087,
+      "thresholds": {
+        "tau_twin_same": 0.4992242455482483,
+        "tau_twin_unrelated": 0.4952704906463623
+      },
+      "confusion_matrix": [
+        [
+          8,
+          1,
+          7
+        ],
+        [
+          42,
+          1,
+          45
+        ],
+        [
+          39,
+          1,
+          40
+        ]
+      ]
+    },
+    "attention_shift": {
+      "regional_ratio_same": 0.4628782788071739,
+      "regional_ratio_twin": 0.4916708883777847,
+      "gate_value": 0.6238282322883606
+    }
+  },
+  "blur_sev3": {
+    "axis": "blur",
+    "severity": 3,
+    "twin_eer": 0.5,
+    "twin_optimal_threshold": 0.5265279412269592,
+    "twin_tar_at_far001": 0.0,
+    "unrelated_eer": 0.49375,
+    "group_metrics": {
+      "same": {
+        "mean_sim": 0.518711868673563,
+        "std_sim": 0.18553620510853738,
+        "mean_regional_ratio": 0.45421430073503755,
+        "mean_gate_value": 0.6238282322883606
+      },
+      "twin": {
+        "mean_sim": 0.5478325113654137,
+        "std_sim": 0.21079107455813345,
+        "mean_regional_ratio": 0.48620470662925136,
+        "mean_gate_value": 0.6238282322883606
+      },
+      "sibling": {
+        "mean_sim": 0.46400290075689554,
+        "std_sim": 0.15329797507475468,
+        "mean_regional_ratio": 0.5233190181899181,
+        "mean_gate_value": 0.6238282322883606
+      },
+      "unrelated": {
+        "mean_sim": 0.5051099829375744,
+        "std_sim": 0.13647518494067942,
+        "mean_regional_ratio": 0.4508064936449257,
+        "mean_gate_value": 0.6238282322883606
+      }
+    },
+    "three_class_metrics": {
+      "accuracy": 0.22282608695652173,
+      "thresholds": {
+        "tau_twin_same": 0.49332815408706665,
+        "tau_twin_unrelated": 0.5022615194320679
+      },
+      "confusion_matrix": [
+        [
+          8,
+          0,
+          8
+        ],
+        [
+          39,
+          0,
+          49
+        ],
+        [
+          47,
+          0,
+          33
+        ]
+      ]
+    },
+    "attention_shift": {
+      "regional_ratio_same": 0.45421430073503755,
+      "regional_ratio_twin": 0.48620470662925136,
+      "gate_value": 0.6238282322883606
+    }
+  },
+  "blur_sev4": {
+    "axis": "blur",
+    "severity": 4,
+    "twin_eer": 0.53125,
+    "twin_optimal_threshold": 0.4853973090648651,
+    "twin_tar_at_far001": 0.0,
+    "unrelated_eer": 0.61875,
+    "group_metrics": {
+      "same": {
+        "mean_sim": 0.472504741512239,
+        "std_sim": 0.1718002197517195,
+        "mean_regional_ratio": 0.44863519374330163,
+        "mean_gate_value": 0.6238282322883606
+      },
+      "twin": {
+        "mean_sim": 0.5438443943858147,
+        "std_sim": 0.177944492112769,
+        "mean_regional_ratio": 0.47971254965326154,
+        "mean_gate_value": 0.6238282322883606
+      },
+      "sibling": {
+        "mean_sim": 0.4612861694768071,
+        "std_sim": 0.15435044808694265,
+        "mean_regional_ratio": 0.5233279897615919,
+        "mean_gate_value": 0.6238282322883606
+      },
+      "unrelated": {
+        "mean_sim": 0.5118584902957082,
+        "std_sim": 0.14064920076590745,
+        "mean_regional_ratio": 0.4445659234814956,
+        "mean_gate_value": 0.6238282322883606
+      }
+    },
+    "three_class_metrics": {
+      "accuracy": 0.18478260869565216,
+      "thresholds": {
+        "tau_twin_same": 0.44915077090263367,
+        "tau_twin_unrelated": 0.4979822039604187
+      },
+      "confusion_matrix": [
+        [
+          7,
+          0,
+          9
+        ],
+        [
+          50,
+          0,
+          38
+        ],
+        [
+          53,
+          0,
+          27
+        ]
+      ]
+    },
+    "attention_shift": {
+      "regional_ratio_same": 0.44863519374330163,
+      "regional_ratio_twin": 0.47971254965326154,
+      "gate_value": 0.6238282322883606
+    }
+  },
+  "blur_sev5": {
+    "axis": "blur",
+    "severity": 5,
+    "twin_eer": 0.53125,
+    "twin_optimal_threshold": 0.5838342308998108,
+    "twin_tar_at_far001": 0.0625,
+    "unrelated_eer": 0.6125,
+    "group_metrics": {
+      "same": {
+        "mean_sim": 0.46644872054457664,
+        "std_sim": 0.15989018101660546,
+        "mean_regional_ratio": 0.4545282105624383,
+        "mean_gate_value": 0.6238282322883606
+      },
+      "twin": {
+        "mean_sim": 0.5313041619956493,
+        "std_sim": 0.1834401673091771,
+        "mean_regional_ratio": 0.47512986892057146,
+        "mean_gate_value": 0.6238282322883606
+      },
+      "sibling": {
+        "mean_sim": 0.46212565042078496,
+        "std_sim": 0.1495569471927771,
+        "mean_regional_ratio": 0.5165026714451064,
+        "mean_gate_value": 0.6238282322883606
+      },
+      "unrelated": {
+        "mean_sim": 0.5125474568456412,
+        "std_sim": 0.13661392422179167,
+        "mean_regional_ratio": 0.4403326538930914,
+        "mean_gate_value": 0.6238282322883606
+      }
+    },
+    "three_class_metrics": {
+      "accuracy": 0.19021739130434784,
+      "thresholds": {
+        "tau_twin_same": 0.4603407680988312,
+        "tau_twin_unrelated": 0.5057432651519775
+      },
+      "confusion_matrix": [
+        [
+          8,
+          0,
+          8
+        ],
+        [
+          45,
+          0,
+          43
+        ],
+        [
+          53,
+          0,
+          27
+        ]
+      ]
+    },
+    "attention_shift": {
+      "regional_ratio_same": 0.4545282105624383,
+      "regional_ratio_twin": 0.47512986892057146,
+      "gate_value": 0.6238282322883606
+    }
+  },
+  "jpeg_sev1": {
+    "axis": "jpeg",
+    "severity": 1,
+    "twin_eer": 0.5625,
+    "twin_optimal_threshold": 0.6749363541603088,
+    "twin_tar_at_far001": 0.0,
+    "unrelated_eer": 0.3875,
+    "group_metrics": {
+      "same": {
+        "mean_sim": 0.5956411547958851,
+        "std_sim": 0.18308446982434617,
+        "mean_regional_ratio": 0.4866318994791565,
+        "mean_gate_value": 0.6238282322883606
+      },
+      "twin": {
+        "mean_sim": 0.6216238401830196,
+        "std_sim": 0.23514442147892922,
+        "mean_regional_ratio": 0.523340210936889,
+        "mean_gate_value": 0.6238282322883606
+      },
+      "sibling": {
+        "mean_sim": 0.5152415302582085,
+        "std_sim": 0.1723395990947639,
+        "mean_regional_ratio": 0.5648162679969904,
+        "mean_gate_value": 0.6238282322883606
+      },
+      "unrelated": {
+        "mean_sim": 0.4875886166468263,
+        "std_sim": 0.151200862412575,
+        "mean_regional_ratio": 0.4640935045718616,
+        "mean_gate_value": 0.6238282322883606
+      }
+    },
+    "three_class_metrics": {
+      "accuracy": 0.375,
+      "thresholds": {
+        "tau_twin_same": 0.5751425623893738,
+        "tau_twin_unrelated": 0.5089675188064575
+      },
+      "confusion_matrix": [
+        [
+          9,
+          1,
+          6
+        ],
+        [
+          34,
+          16,
+          38
+        ],
+        [
+          27,
+          9,
+          44
+        ]
+      ]
+    },
+    "attention_shift": {
+      "regional_ratio_same": 0.4866318994791565,
+      "regional_ratio_twin": 0.523340210936889,
+      "gate_value": 0.6238282322883606
+    }
+  },
+  "jpeg_sev2": {
+    "axis": "jpeg",
+    "severity": 2,
+    "twin_eer": 0.59375,
+    "twin_optimal_threshold": 0.701541543006897,
+    "twin_tar_at_far001": 0.0,
+    "unrelated_eer": 0.43125,
+    "group_metrics": {
+      "same": {
+        "mean_sim": 0.5892635639756918,
+        "std_sim": 0.18812382483756954,
+        "mean_regional_ratio": 0.4869532053233157,
+        "mean_gate_value": 0.6238282322883606
+      },
+      "twin": {
+        "mean_sim": 0.6183823682367802,
+        "std_sim": 0.23611606924289433,
+        "mean_regional_ratio": 0.5249301884208853,
+        "mean_gate_value": 0.6238282322883606
+      },
+      "sibling": {
+        "mean_sim": 0.5211250556632876,
+        "std_sim": 0.17591857027330612,
+        "mean_regional_ratio": 0.564277322910789,
+        "mean_gate_value": 0.6238282322883606
+      },
+      "unrelated": {
+        "mean_sim": 0.49226852748543026,
+        "std_sim": 0.15071211808002236,
+        "mean_regional_ratio": 0.46690396460277944,
+        "mean_gate_value": 0.6238282322883606
+      }
+    },
+    "three_class_metrics": {
+      "accuracy": 0.3641304347826087,
+      "thresholds": {
+        "tau_twin_same": 0.5694601535797119,
+        "tau_twin_unrelated": 0.5299840569496155
+      },
+      "confusion_matrix": [
+        [
+          9,
+          1,
+          6
+        ],
+        [
+          35,
+          13,
+          40
+        ],
+        [
+          29,
+          6,
+          45
+        ]
+      ]
+    },
+    "attention_shift": {
+      "regional_ratio_same": 0.4869532053233157,
+      "regional_ratio_twin": 0.5249301884208853,
+      "gate_value": 0.6238282322883606
+    }
+  },
+  "jpeg_sev3": {
+    "axis": "jpeg",
+    "severity": 3,
+    "twin_eer": 0.40625,
+    "twin_optimal_threshold": 0.5296651721000671,
+    "twin_tar_at_far001": 0.0,
+    "unrelated_eer": 0.36875,
+    "group_metrics": {
+      "same": {
+        "mean_sim": 0.6063230773434043,
+        "std_sim": 0.17843647349329037,
+        "mean_regional_ratio": 0.4891519706397637,
+        "mean_gate_value": 0.6238282322883606
+      },
+      "twin": {
+        "mean_sim": 0.623657051473856,
+        "std_sim": 0.22713780745768639,
+        "mean_regional_ratio": 0.5245263672182051,
+        "mean_gate_value": 0.6238282322883606
+      },
+      "sibling": {
+        "mean_sim": 0.5148914236575365,
+        "std_sim": 0.17407600353476338,
+        "mean_regional_ratio": 0.564790351213672,
+        "mean_gate_value": 0.6238282322883606
+      },
+      "unrelated": {
+        "mean_sim": 0.49240009039640426,
+        "std_sim": 0.15344101894523657,
+        "mean_regional_ratio": 0.4689187803314031,
+        "mean_gate_value": 0.6238282322883606
+      }
+    },
+    "three_class_metrics": {
+      "accuracy": 0.3423913043478261,
+      "thresholds": {
+        "tau_twin_same": 0.55147385597229,
+        "tau_twin_unrelated": 0.5162973403930664
+      },
+      "confusion_matrix": [
+        [
+          9,
+          2,
+          5
+        ],
+        [
+          39,
+          10,
+          39
+        ],
+        [
+          29,
+          7,
+          44
+        ]
+      ]
+    },
+    "attention_shift": {
+      "regional_ratio_same": 0.4891519706397637,
+      "regional_ratio_twin": 0.5245263672182051,
+      "gate_value": 0.6238282322883606
+    }
+  },
+  "jpeg_sev4": {
+    "axis": "jpeg",
+    "severity": 4,
+    "twin_eer": 0.53125,
+    "twin_optimal_threshold": 0.6909717917442322,
+    "twin_tar_at_far001": 0.0,
+    "unrelated_eer": 0.44375,
+    "group_metrics": {
+      "same": {
+        "mean_sim": 0.5886992327868938,
+        "std_sim": 0.17724472961006962,
+        "mean_regional_ratio": 0.49201537848102367,
+        "mean_gate_value": 0.6238282322883606
+      },
+      "twin": {
+        "mean_sim": 0.6107577160000801,
+        "std_sim": 0.23414097278797016,
+        "mean_regional_ratio": 0.5278154232410288,
+        "mean_gate_value": 0.6238282322883606
+      },
+      "sibling": {
+        "mean_sim": 0.5220379655249416,
+        "std_sim": 0.17874144841587225,
+        "mean_regional_ratio": 0.5659310545751459,
+        "mean_gate_value": 0.6238282322883606
+      },
+      "unrelated": {
+        "mean_sim": 0.4933312079869211,
+        "std_sim": 0.154886162491224,
+        "mean_regional_ratio": 0.47353700765212103,
+        "mean_gate_value": 0.6238282322883606
+      }
+    },
+    "three_class_metrics": {
+      "accuracy": 0.3641304347826087,
+      "thresholds": {
+        "tau_twin_same": 0.5498620271682739,
+        "tau_twin_unrelated": 0.5201169848442078
+      },
+      "confusion_matrix": [
+        [
+          9,
+          0,
+          7
+        ],
+        [
+          45,
+          9,
+          34
+        ],
+        [
+          30,
+          1,
+          49
+        ]
+      ]
+    },
+    "attention_shift": {
+      "regional_ratio_same": 0.49201537848102367,
+      "regional_ratio_twin": 0.5278154232410288,
+      "gate_value": 0.6238282322883606
+    }
+  },
+  "jpeg_sev5": {
+    "axis": "jpeg",
+    "severity": 5,
+    "twin_eer": 0.5,
+    "twin_optimal_threshold": 0.6120859384536743,
+    "twin_tar_at_far001": 0.0,
+    "unrelated_eer": 0.35625,
+    "group_metrics": {
+      "same": {
+        "mean_sim": 0.5716299954801798,
+        "std_sim": 0.19051615790482465,
+        "mean_regional_ratio": 0.4974984552726729,
+        "mean_gate_value": 0.6238282322883606
+      },
+      "twin": {
+        "mean_sim": 0.6376521289348602,
+        "std_sim": 0.19671407012081107,
+        "mean_regional_ratio": 0.521045141033711,
+        "mean_gate_value": 0.6238282322883606
+      },
+      "sibling": {
+        "mean_sim": 0.5238430831581354,
+        "std_sim": 0.190131815054936,
+        "mean_regional_ratio": 0.565707042403021,
+        "mean_gate_value": 0.6238282322883606
+      },
+      "unrelated": {
+        "mean_sim": 0.49331882074475286,
+        "std_sim": 0.15327367746577394,
+        "mean_regional_ratio": 0.48142813241372895,
+        "mean_gate_value": 0.6238282322883606
+      }
+    },
+    "three_class_metrics": {
+      "accuracy": 0.34782608695652173,
+      "thresholds": {
+        "tau_twin_same": 0.5679839253425598,
+        "tau_twin_unrelated": 0.5113415718078613
+      },
+      "confusion_matrix": [
+        [
+          9,
+          2,
+          5
+        ],
+        [
+          36,
+          12,
+          40
+        ],
+        [
+          27,
+          10,
+          43
+        ]
+      ]
+    },
+    "attention_shift": {
+      "regional_ratio_same": 0.4974984552726729,
+      "regional_ratio_twin": 0.521045141033711,
+      "gate_value": 0.6238282322883606
+    }
+  },
+  "illumination_sev1": {
+    "axis": "illumination",
+    "severity": 1,
+    "twin_eer": 0.5,
+    "twin_optimal_threshold": 0.5547915697097778,
+    "twin_tar_at_far001": 0.0,
+    "unrelated_eer": 0.425,
+    "group_metrics": {
+      "same": {
+        "mean_sim": 0.5496440473943949,
+        "std_sim": 0.19098131894748768,
+        "mean_regional_ratio": 0.49870128583681617,
+        "mean_gate_value": 0.6238282322883606
+      },
+      "twin": {
+        "mean_sim": 0.6445181109011173,
+        "std_sim": 0.19519686859180446,
+        "mean_regional_ratio": 0.5153315578532471,
+        "mean_gate_value": 0.6238282322883606
+      },
+      "sibling": {
+        "mean_sim": 0.5078704863786697,
+        "std_sim": 0.19515230246207774,
+        "mean_regional_ratio": 0.5842950202829862,
+        "mean_gate_value": 0.6238282322883606
+      },
+      "unrelated": {
+        "mean_sim": 0.48646335965022447,
+        "std_sim": 0.14657417087313554,
+        "mean_regional_ratio": 0.4722635839244404,
+        "mean_gate_value": 0.6238282322883606
+      }
+    },
+    "three_class_metrics": {
+      "accuracy": 0.33152173913043476,
+      "thresholds": {
+        "tau_twin_same": 0.5414446592330933,
+        "tau_twin_unrelated": 0.5013121366500854
+      },
+      "confusion_matrix": [
+        [
+          9,
+          2,
+          5
+        ],
+        [
+          39,
+          9,
+          40
+        ],
+        [
+          26,
+          11,
+          43
+        ]
+      ]
+    },
+    "attention_shift": {
+      "regional_ratio_same": 0.49870128583681617,
+      "regional_ratio_twin": 0.5153315578532471,
+      "gate_value": 0.6238282322883606
+    }
+  },
+  "illumination_sev2": {
+    "axis": "illumination",
+    "severity": 2,
+    "twin_eer": 0.40625,
+    "twin_optimal_threshold": 0.4450320601463318,
+    "twin_tar_at_far001": 0.0,
+    "unrelated_eer": 0.46875,
+    "group_metrics": {
+      "same": {
+        "mean_sim": 0.4415304958820343,
+        "std_sim": 0.2065212499522771,
+        "mean_regional_ratio": 0.5939383223302648,
+        "mean_gate_value": 0.6238282322883606
+      },
+      "twin": {
+        "mean_sim": 0.5078731197863817,
+        "std_sim": 0.22358865061422342,
+        "mean_regional_ratio": 0.5109634788594757,
+        "mean_gate_value": 0.6238282322883606
+      },
+      "sibling": {
+        "mean_sim": 0.4718960146419704,
+        "std_sim": 0.19534160747540455,
+        "mean_regional_ratio": 0.6116270654611696,
+        "mean_gate_value": 0.6238282322883606
+      },
+      "unrelated": {
+        "mean_sim": 0.4756164403632283,
+        "std_sim": 0.1454654981806951,
+        "mean_regional_ratio": 0.515664972873982,
+        "mean_gate_value": 0.6238282322883606
+      }
+    },
+    "three_class_metrics": {
+      "accuracy": 0.22826086956521738,
+      "thresholds": {
+        "tau_twin_same": 0.4456731081008911,
+        "tau_twin_unrelated": 0.44973301887512207
+      },
+      "confusion_matrix": [
+        [
+          8,
+          0,
+          8
+        ],
+        [
+          42,
+          0,
+          46
+        ],
+        [
+          46,
+          0,
+          34
+        ]
+      ]
+    },
+    "attention_shift": {
+      "regional_ratio_same": 0.5939383223302648,
+      "regional_ratio_twin": 0.5109634788594757,
+      "gate_value": 0.6238282322883606
+    }
+  },
+  "illumination_sev3": {
+    "axis": "illumination",
+    "severity": 3,
+    "twin_eer": 0.53125,
+    "twin_optimal_threshold": 0.41766640543937683,
+    "twin_tar_at_far001": 0.0625,
+    "unrelated_eer": 0.6,
+    "group_metrics": {
+      "same": {
+        "mean_sim": 0.40859409514814615,
+        "std_sim": 0.15821969696147462,
+        "mean_regional_ratio": 0.5939427927698755,
+        "mean_gate_value": 0.6238282322883606
+      },
+      "twin": {
+        "mean_sim": 0.3885013274848461,
+        "std_sim": 0.1909638788637214,
+        "mean_regional_ratio": 0.6419611369490519,
+        "mean_gate_value": 0.6238282322883606
+      },
+      "sibling": {
+        "mean_sim": 0.4451573744416237,
+        "std_sim": 0.20121557111664384,
+        "mean_regional_ratio": 0.6185653982476462,
+        "mean_gate_value": 0.6238282322883606
+      },
+      "unrelated": {
+        "mean_sim": 0.43964231554418803,
+        "std_sim": 0.13592182236645456,
+        "mean_regional_ratio": 0.5408417747761164,
+        "mean_gate_value": 0.6238282322883606
+      }
+    },
+    "three_class_metrics": {
+      "accuracy": 0.21195652173913043,
+      "thresholds": {
+        "tau_twin_same": 0.4009771943092346,
+        "tau_twin_unrelated": 0.428025484085083
+      },
+      "confusion_matrix": [
+        [
+          7,
+          0,
+          9
+        ],
+        [
+          47,
+          0,
+          41
+        ],
+        [
+          48,
+          0,
+          32
+        ]
+      ]
+    },
+    "attention_shift": {
+      "regional_ratio_same": 0.5939427927698755,
+      "regional_ratio_twin": 0.6419611369490519,
+      "gate_value": 0.6238282322883606
+    }
+  },
+  "illumination_sev4": {
+    "axis": "illumination",
+    "severity": 4,
+    "twin_eer": 0.40625,
+    "twin_optimal_threshold": 0.40280503034591675,
+    "twin_tar_at_far001": 0.0625,
+    "unrelated_eer": 0.4875,
+    "group_metrics": {
+      "same": {
+        "mean_sim": 0.4392017675563693,
+        "std_sim": 0.15994825125822493,
+        "mean_regional_ratio": 0.5938497526788405,
+        "mean_gate_value": 0.6238282322883606
+      },
+      "twin": {
+        "mean_sim": 0.3958769589662552,
+        "std_sim": 0.1617114623493121,
+        "mean_regional_ratio": 0.616523222003194,
+        "mean_gate_value": 0.6238282322883606
+      },
+      "sibling": {
+        "mean_sim": 0.47286574421450495,
+        "std_sim": 0.1880832447299764,
+        "mean_regional_ratio": 0.6283310637275015,
+        "mean_gate_value": 0.6238282322883606
+      },
+      "unrelated": {
+        "mean_sim": 0.46177535932511093,
+        "std_sim": 0.12587345442528483,
+        "mean_regional_ratio": 0.5495548064304068,
+        "mean_gate_value": 0.6238282322883606
+      }
+    },
+    "three_class_metrics": {
+      "accuracy": 0.2826086956521739,
+      "thresholds": {
+        "tau_twin_same": 0.45972388982772827,
+        "tau_twin_unrelated": 0.44726160168647766
+      },
+      "confusion_matrix": [
+        [
+          8,
+          0,
+          8
+        ],
+        [
+          38,
+          5,
+          45
+        ],
+        [
+          38,
+          3,
+          39
+        ]
+      ]
+    },
+    "attention_shift": {
+      "regional_ratio_same": 0.5938497526788405,
+      "regional_ratio_twin": 0.616523222003194,
+      "gate_value": 0.6238282322883606
+    }
+  },
+  "illumination_sev5": {
+    "axis": "illumination",
+    "severity": 5,
+    "twin_eer": 0.53125,
+    "twin_optimal_threshold": 0.3986603617668152,
+    "twin_tar_at_far001": 0.0625,
+    "unrelated_eer": 0.68125,
+    "group_metrics": {
+      "same": {
+        "mean_sim": 0.37983652018010616,
+        "std_sim": 0.14172758705509664,
+        "mean_regional_ratio": 0.5822778221058389,
+        "mean_gate_value": 0.6238282322883606
+      },
+      "twin": {
+        "mean_sim": 0.4357205182313919,
+        "std_sim": 0.13253880128630485,
+        "mean_regional_ratio": 0.5571586050072552,
+        "mean_gate_value": 0.6238282322883606
+      },
+      "sibling": {
+        "mean_sim": 0.495390579290688,
+        "std_sim": 0.17636051826870291,
+        "mean_regional_ratio": 0.6071302393606032,
+        "mean_gate_value": 0.6238282322883606
+      },
+      "unrelated": {
+        "mean_sim": 0.480021028034389,
+        "std_sim": 0.12971065791614958,
+        "mean_regional_ratio": 0.5453354194540958,
+        "mean_gate_value": 0.6238282322883606
+      }
+    },
+    "three_class_metrics": {
+      "accuracy": 0.17391304347826086,
+      "thresholds": {
+        "tau_twin_same": 0.4027601480484009,
+        "tau_twin_unrelated": 0.477043479681015
+      },
+      "confusion_matrix": [
+        [
+          6,
+          0,
+          10
+        ],
+        [
+          56,
+          0,
+          32
+        ],
+        [
+          54,
+          0,
+          26
+        ]
+      ]
+    },
+    "attention_shift": {
+      "regional_ratio_same": 0.5822778221058389,
+      "regional_ratio_twin": 0.5571586050072552,
+      "gate_value": 0.6238282322883606
+    }
+  }
+}
